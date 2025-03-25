@@ -1,603 +1,197 @@
-/*#firstScreen*/
-.newmain {
-  background: #fff;
-}
-
-.newmain_container {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  margin: 0 auto;
-  justify-self: center;
+.hero_container {
+  background-color: black;
   height: 100vh;
-  z-index: 1;
-  width: 100%;
-  padding: 2.5vw;
+  width: 100vw;
+}
+
+.hero {
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0) 0%,
-    rgba(17, 17, 17, 0.6) 100%
-  ), url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV31.jpeg);
+    rgba(0, 0, 0, 0.338) 10%
+  ),
+  url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV2.JPEG);
   background-size: cover;
-  background-position: 50% 90%;
-  color: #131313;
-}
-
-.newmain_content {
-  margin-top: 40vh;
-  margin-bottom: auto;
-  margin-left: 5vw;
-  margin-right: auto;
-  width: 40vw;
-}
-
-.newmain_content h1 {
-  font-size: 6vw;
-  color: #fff;
-  font-family: roboto-condensed;
-}
-
-.newmain_content p {
-  font-size: 2.2vw;
-  color: #fff;
-}
-
-/* ad */
-
-.ad {
-  width: 100%;
-  background: #21172a;
-}
-
-.ad_container {
-  width: 90vw;
-  max-width: 1800px;
+  background-position: 100% 57%;
   height: 100vh;
+  width: 100vw;
   margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-content: center;
-  justify-content: center;
-}
-
-.ad_content {
-  margin: auto;
-  width: 35vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 60vh;
 }
 
-.ad_content h1 {
-  font-family: anton;
-  font-size: 5vw;
-  color: #fff;
-}
-
-.ad_content p {
-  font-family: sans-serif;
-  font-size: 2.5vw;
-  color: #d0a9e4;
-}
-
-.ad_img_container {
-  display: flex;
-  height: 80vh;
-  margin-right: 5vw;
-  align-content: center;
-  justify-content: center;
-}
-
-.ad_img {
-  width: 100%;
-  height: 100%;
-  background-image: url(images/real/couples/romance4.jpg);
-  background-size: cover;
-  background-position: 100% 70%;
-  border-radius: 25px;
-}
-
-#ad_btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  padding: 10px 20px;
-  width: 10vw;
-  border: none;
-  outline: none;
-  background: #fff;
-  color: #131313;
-  border-radius: 20px;
-  margin-top: 2vw;
-  font-size: 2.2vh;
-}
-
-/* main section 2 */
-.main2 {
-  background: #f4b3c4;
-  width: 100%;
-}
-
-.main2_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10vh;
-}
-
-.main2_content {
-  width: 100%;
-  margin-top: 10vh;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.main2_content_header {
-  display: flex;
-  flex-direction: column;
-  width: 90vw;
-  box-sizing: border-box;
-  padding: 1vw;
-}
-
-.main2_content_header h1 {
-  text-align: left;
-  font-family: Anton;
-  font-size: 4rem;
-}
-
-.triplet_container {
-  width: 100%;
-  max-width: 1300px;
-  margin-top: 3vh;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.triplet_content {
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  box-sizing: border-box;
-  padding: 1vw;
-}
-
-.triplet_content_text {
-  padding-top: 4vh;
-  padding-bottom: 1vh;
-}
-
-.triplet_content_text h3 {
-  font-size: 2rem;
-  font-family: Montserrat;
-}
-
-.triplet_content_text p {
-  font-size: 1rem;
-  padding-top: 1.5vh;
-  font-family: Montserrat;
-}
-
-.main2_card {
-  height: 18vw;
-  border-radius: 25px;
-  background-position: center;
-}
-
-#main2_card1 {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(17, 17, 17, 0.6) 100%
-  ),
-  url(images/real/couples/sneakers.jpg);
-  background-size: cover;
-  background-position: 50% 60%;
-  position: relative;
-  color: #131313;
-}
-
-#main2_card2 {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(17, 17, 17, 0.6) 100%
-  ),
-  url(images/heartinSUn.jpg);
-  background-size: cover;
-  background-position: 50% 45%;
-  position: relative;
-  color: #131313;
-}
-
-#main2_card3 {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(17, 17, 17, 0.6) 100%
-  ),
-  url(images/real/couples/prettyCity.jpg);
-  background-size: cover;
-  background-position: 50% 45%;
-  position: relative;
-  color: #131313;
-}
-
-/*main section 3*/
-
-.main3 {
-  background: #fff;
-  max-width: 100vw;
-}
-
-.main3_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin: 0 auto;
-  justify-self: center;
-  height: 100vh;
-  background: #fff;
-  z-index: 1;
-  width: 100%;
-  max-width: 100vw;
-  justify-content: center;
-  align-content: center;
-}
-
-.main3_content {
-  height: 80vh;
-  border-radius: 20px;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  padding-top: 5vw;
-  padding-bottom: 5vw;
-  background-image: linear-gradient(
-    to top,
-    rgba(248, 246, 246, 0) 0%,
-    rgba(17, 17, 17, 0.283) 100%
-  ),
-  url(images/real/beach.jpg);
-  background-size: cover;
-  background-position: 50% 90%;
-  color: #fff;
-  display: flex;
-  width: 47vw;
-  border-radius: 20px;
-  display: flex;
-  margin: 0 auto;
-}
-
-.main3_textcontainer1 {
-  display: flex;
-}
-
-#main3_content1 h2 {
-  font-size: 8vh;
-  font-family: Anton;
-  margin: 0 auto;
-  text-align: left;
-}
-
-#main3_content2 {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(248, 246, 246, 0) 0%,
-    rgba(17, 17, 17, 0.603) 100%
-  ),
-  url(images/real/couples/surfCouple2.jpg);
-  background-size: cover;
-  background-position: 50% 100%;
-  color: #fff;
-}
-
-#main3_content2 h3 {
-  font-size: 4.5vh;
-  font-family: Anton;
-  margin: auto;
-  margin-top: 35vh;
-  text-align: left;
-}
-
-.main3_textcontainer2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.main3_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  padding: 10px 20px;
-  height: 100%;
-  border: none;
-  outline: none;
-  background: #ff907c;
-  color: #131313;
-  border-radius: 20px;
-  margin-top: 2vw;
-  font-size: 2.2vh;
-}
-
-#main3_content2 p {
-  font-size: 2.8vh;
-  margin: auto;
-  margin-top: 1vh;
-  text-align: left;
-  color: #fff;
-}
-
-/* Join Us */
-
-.join_us {
-  width: 100%;
-  background: #21172a;;
-}
-
-.join_us_container {
-  margin: auto;
-  width: 80vw;
-  height: 90vh;
-  max-width: 1800px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
-.join_us_content {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  margin: 5vh auto;
-}
-
-.join_us_photo {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(4, 4, 4, 0.218) 100%
-  ),
-  url(images/Daughters_of_Venus/DOV25.JPG);
-  height: 70vh;
-  width: 70vw;
-  max-width: 1620px;
-  padding: 5vw;
-  border-radius: 20px;
-  background-size: cover;
-  background-position: 50% 15%;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-}
-
-.join_us_photo h2 {
+.social-icons-container {
+  color: white;
+  margin: 0;
   text-align: center;
-  color: #fff;
-  font-size: 9.5vh;
-  font-family: anton;
+  position: sticky;
+  width: 100%;
 }
 
-.join_us_button {
+.social-icons {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 35%;
+  margin-left: 5%;
+}
+
+.social-icons li {
   margin: auto;
 }
 
-#join_btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.social-icons a {
+  color: rgb(248, 233, 239);
   text-decoration: none;
-  padding: 10px 20px;
-  width: 10vw;
-  border: none;
-  outline: none;
-  color: #fff;
-  background: #131313;
-  border-radius: 20px;
-  margin-top: 2vw;
-  font-size: 2.2vh;
+  font-family: anton;
+  font-size: 3vw;
 }
 
-@media screen and (max-width: 960px) {
+.fa-brands:hover {
+  color: rgb(255, 0, 140) !important;
+}
 
-  /* main */
-  .newmain_container {
-    background-position: 50% 0%;
-    background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.379) 100%
-    ),
-    url(images/real/surfCouple.jpg);;
-    height: 93vh;
-  }
+/*Title*/
+.title-container {
+  margin: auto;
+  width: 100%;
+}
 
-  .newmain_content {
+.title {
+  display: flexbox;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.title h1 {
+  color:#fff;
+  font-family: anton;
+  font-size: 9vw;
+  text-align: center;
+  text-shadow: rgb(255, 10, 169) 1px 0 10px;
+}
+
+.title-text:hover {
+  text-shadow: rgb(255, 0, 212) 1px 0 10px;
+}
+
+
+
+  /* Basic styling for the footer */
+  nav {
+    color: white;
     margin: auto;
-    margin-top: 10vh;
-    width: 70vw;
-  }
-
-  .newmain_content h1, .newmain_content p {
     text-align: center;
-  }
-
-  .newmain_content h1 {
-    font-size: 12vw;
-  }
-
-  .newmain_content p {
-    font-size: 4vw;
-  }
-
-  /* ad */
-  .ad_container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    padding: 0;
-  }
-
-  .ad_content {
-    width: 90vw;
-    justify-content: center;
-    align-content: center;
-    padding: 0;
-    height: 30vh;
-  }
-
-  .ad_content h1, .ad_content p, .ad_content div {
-    text-align: center;
-    padding: 1vh;
-  }
-
-  .ad_content h1 {
-    font-size: 9vw;
-  }
-
-  .ad_content p {
-    font-size: 4vw;
-  }
-
-  .ad_img {
-    width: 90vw;
-    height: 40vh;
-    background-position: 50% 40%;
-  }
-
-  .ad_img_container {
-    height: 30vh;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-  }
-
-  #ad_btn {
-    margin: auto;
-    border-radius: 25px;
-    margin-top: 0;
-    width: 30vw;
-    font-size: 3vw;
-  }
-
-  .ad_btn_container {
-    margin-top: 0;
-  }
-
-  /*section 2 */
-
-  .main2_content_header {
-    width: 85vw;
-    box-sizing: border-box;
-    padding: 1vw;
-  }
-
-  .main2_content_header h1 {
-    font-size: 10vw;
-  }
-
-  .triplet_container {
+    position: sticky;
     width: 100%;
-    max-width: 1300px;
-    margin-top: 3vh;
+}
+
+/* Styling for the navigation bar */
+.footer-nav {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    padding: 0;
-  }
-
-  .triplet_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 85vw;
-    height: 70vh;
-    margin: auto;
-  }
-
-  .triplet_content_text {
-    margin: auto;
-    text-align: center;
-    margin-bottom: 2vh;
-  }
-
-  .triplet_content_text p {
-    font-size: 3vh;
-  }
-
-  .triplet_content_text h2 {
-    font-size: 3.5vh;
-  }
-
-
-  .main2_card {
-    height: 18vw;
-    border-radius: 25px;
-    background-position: center;
-    height: 50vh;
-    padding: 0;
+    list-style-type: none;
     margin: 0;
-  }
+}
 
-  /* join us */
-  .join_us_container {
-    width: 100%;
-    height: 80vh;
-  }
+.footer-nav li {
+    margin: 0 5vw;
+}
 
-  .join_us_photo {
-    height: 57vh;
-    width: 100%;
-    border-radius: 0;
-    background-position: 50% 92%;
-    padding: 0;
-  }
+.footer-nav a {
+    color: rgb(248, 233, 239);
+    text-decoration: none;
+    font-family: anton;
+    font-size: 3vw;
+}
 
-  #join_btn {
-    width: 31vw;
-    font-size: 3vh;
-    border-radius: 25px;
-    text-align: center;
-  }
+.footer-nav a:hover {
+    color: rgb(255, 0, 140);
+}
 
-  /* section 3 */
-  .main3_container {
-    height: 170vh;
-    display: flex;
-    flex-direction: column;
-  }
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .main3_content {
-    height: 60vh;
-    width: 100vw;
-    margin: auto;
-    border-radius: 0;
-  }
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  #main3_content2 p {
-    font-size: 2.6vh;
-    padding-bottom: 2vh;
-  }
 
-  .main3_button {
-    border-radius: 25px;
-    width: 30vw;
-    font-size: 3vh;
-    margin-top: 2.5vh;
+
+
+
+
+
+
+
+
+
+
+
+/*music note */
+.music-note {
+  position: absolute;
+  font-size: 2rem;
+  color: #ff00ff;
+  user-select: none;
+  pointer-events: none;
+  animation: floatUp 3s ease-out forwards;
+  opacity: 0.8;
+}
+
+@keyframes floatUp {
+  0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 0.8;
   }
+  100% {
+      transform: translateY(-200px) rotate(20deg);
+      opacity: 0;
+  }
+}
+
+
+
+
+/* dove */
+.dove {
+  position: fixed;
+  font-size: 2rem;
+  z-index: 100;
+  pointer-events: none;
+  user-select: none;
+  animation: flyDiagonal 8s linear forwards;
+  opacity: 0;
+  transform-origin: center;
+}
+
+@keyframes flyDiagonal {
+  0% {
+      transform: translateX(100px) translateY(100px) rotate(0deg);
+      opacity: 0;
+      left: 100%;
+      top: 100%;
+  }
+  10% {
+      opacity: 1;
+  }
+  90% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(-100px) translateY(-100px) rotate(-15deg);
+      opacity: 0;
+      left: 0;
+      top: 0;
+  }
+}
+
+.dove::before {
+  content: "🕊️";
 }
