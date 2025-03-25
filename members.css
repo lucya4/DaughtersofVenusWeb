@@ -1,0 +1,287 @@
+
+/* Members Section */
+.members {
+  background: url(images/Daughters_of_Venus/miscelanious/record-corner.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.members_container {
+  max-width: 95vw;
+  margin: auto;
+  padding: 5vh 0;
+  text-align: center;
+}
+
+.members_container h1 {
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 2rem;
+  color: #a30e0e; /* Muted purple for headings */
+}
+
+.members_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+  gap: 3vw;
+  padding: 2rem 0;
+}
+
+.member_card {
+  background-color: #fffcff; /* Slightly lighter dark background */
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Grunge shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.member_card:hover {
+  transform: translateY(-10px) scale(1.05); /* Lift and scale up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, 0.464); /* Enhanced shadow + muted purple glow */
+}
+
+#october {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(249, 245, 245, 0) 0%,
+    rgba(0, 0, 0, 0.757) 90%
+  ),
+  url(images/Daughters_of_Venus/Photoshoots/First-Photoshoot/october.JPG);
+}
+
+#ava {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(249, 245, 245, 0) 0%,
+    rgba(0, 0, 0, 0.757) 90%
+  ),
+  url(images/Daughters_of_Venus/Photoshoots/First-Photoshoot/ava.JPG);
+}
+
+#jenny {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(249, 245, 245, 0) 0%,
+    rgba(0, 0, 0, 0.757) 90%
+  ),
+  url(images/Daughters_of_Venus/Photoshoots/First-Photoshoot/jenny.JPG);
+}
+
+#kiri {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(249, 245, 245, 0) 0%,
+    rgba(0, 0, 0, 0.757) 90%
+  ),
+  url(images/Daughters_of_Venus/Photoshoots/First-Photoshoot/kiri.JPG);
+}
+
+#ayeda {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(249, 245, 245, 0) 0%,
+    rgba(0, 0, 0, 0.757) 90%
+  ),
+  url(images/Daughters_of_Venus/Photoshoots/First-Photoshoot/ayeda.JPG);
+}
+
+#kate {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(249, 245, 245, 0) 0%,
+    rgb(0, 0, 0) 100%
+  ),
+  url(images/Daughters_of_Venus/Photoshoots/First-Photoshoot/DOV12.JPG);
+}
+
+.member_photo {
+  height: 20vh; /* Adjust height as needed */
+  width: 100%; /* Make the photo take up the full width of the card */
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px 20px 0 0; /* Rounded top corners */
+  margin-top: 1rem; /* Add a gap between the top of the card and the photo */
+}
+
+.member_info {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.member_info h2 {
+  font-size: 2rem;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 0.5rem;
+  color: #fcfaff; /* Muted purple for member names */
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.member_info h3 {
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+  color: #f5f5f5; /* White for role */
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.member_info p {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #ccc; /* Light gray for bio text */
+  margin: 0; /* Remove default margin */
+  padding: 0 .5rem; /* Add padding to the left and right */
+  word-wrap: break-word; /* Ensure long words break and wrap */
+  overflow-wrap: break-word; /* Alternative for better browser support */
+  max-width: 100%; /* Ensure text doesn't exceed the card's width */
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.social-media-section {
+  width: 100vw;
+  height: 50vh;
+}
+
+.youtube-container {
+  width: 90vw;
+  margin: auto;
+}
+
+/* nav section */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 6vh;
+  background-color: black;
+  box-shadow: 2px 2px 4px 2px #91919164;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  background-image: url(images/Daughters_of_Venus/Art/DOV-logo.jpeg);
+  width: 5vh;
+  height: 5vh;
+  background-size: cover;
+  margin: auto;
+}
+
+.nav h1 a {
+  margin-right: 3vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: garamond;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-title:hover {
+  text-shadow: rgb(254, 0, 0) 1px 0 20px;
+  color: #dab8b8;
+}
+
+.nav-buttons, .social-icons{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-buttons {
+  width: 55vw;
+}
+
+.social-icons {
+  width: 15vw;
+  margin: auto;
+  font-size: 1.5vw;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-family: anton;
+}
+
+.fa-brands:hover {
+  color: rgb(255, 0, 0) !important;
+}
+
+
+.nav-buttons li {
+  margin: auto;
+}
+
+.nav-buttons a {
+  color: #fff;
+  text-decoration: none;
+  font-family: anton;
+  font-size: 2vw;
+}
+
+.nav-buttons a:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .members_container h1 {
+    font-size: 3rem;
+  }
+
+  .members_grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .member_photo {
+    height: 250px;
+  }
+
+  .member_info h2 {
+    font-size: 1.75rem;
+  }
+
+  .member_info h3 {
+    font-size: 1.1rem;
+  }
+
+  .member_info p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .members_container h1 {
+    font-size: 2.5rem;
+  }
+
+  .members_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .member_photo {
+    height: 200px;
+  }
+
+  .member_info h2 {
+    font-size: 1.5rem;
+  }
+
+  .member_info h3 {
+    font-size: 1rem;
+  }
+
+  .member_info p {
+    font-size: 0.85rem;
+  }
+}

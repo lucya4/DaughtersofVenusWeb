@@ -1,0 +1,427 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ), url(images/Daughters_of_Venus/Shows/QFC-Show/IMG_5012.JPG);
+  background-size: cover;
+  background-position: 100% 100%;
+  background-attachment: fixed;
+}
+
+
+.motto {
+  width: 100%;
+}
+
+.motto_content {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ), url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV5.jpeg);
+  background-size: cover;
+  background-position: 50% 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.motto_content h1 {
+  font-family: monterastat;
+  color: #fff;
+  text-shadow: rgb(0, 0, 0) 1px 0 20px;
+  margin: 10vh;
+  margin-top: 30vh;
+  font-size: 7vw;
+  text-align: center;
+}
+
+/* mission */
+.mission {
+  width: 100%;
+  color: #131313;
+  background-size: cover;
+  background-position: 100% 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.mission_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 3vw;
+  width: 100%;
+}
+
+.mission_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-right: 3vw;
+}
+
+.mission_content p {
+  text-align: left;
+  font-size: 4vh;
+  color: #fff;
+  text-shadow: rgb(0, 0, 0) 1px 0 20px;
+}
+
+.mission_content h2 {
+  font-size: 9vh;
+  font-family: roboto-condensed;
+  color: #ffffff;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+  text-shadow: rgb(0, 0, 0) 1px 0 20px;
+}
+
+.mission_content h3 {
+  font-size: 5vh;
+  font-family: sans-serif;
+  text-shadow: rgb(0, 0, 0) 1px 0 20px;
+}
+
+.mission_img {
+  width: 90vh;
+  background-image: url(images/Daughters_of_Venus/DOV10.JPG);
+  background-size: cover;
+  background-position: 90%;
+  border-radius: 20px;
+}
+
+/* values */
+.values {
+  width: 100%;
+  margin: 5vh auto;
+}
+
+.values_container {
+  margin: auto;
+  width: 80vw;
+}
+
+.values_title {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.values_title h1 {
+  font-size: 8vh;
+  font-family: anton;
+  color: #fff;
+}
+
+.values_section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  margin: 5vh auto;
+}
+
+.value {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  grid-row-gap: 5vh;
+}
+
+.value_text {
+  width: 30vw;
+  align-self: flex-end;
+  margin-top: 4vh;
+  color: #fff;
+}
+
+.value_text h2 {
+  font-size: 6vh;
+  font-family: roboto-condensed;
+}
+
+.value_text p {
+  font-size: 2.8vh;
+  margin-top: 1.5vh;
+  font-family: Montserrat;
+}
+
+.value_img {
+  border-radius: 20px;
+  margin-right: 10vh;
+  background-image: url(images/Daughters_of_Venus/DOV12.JPG);
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 30vh;
+}
+
+#value_img1 {
+  background-image: url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV7.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#value_img2 {
+  background-image: url(images/Daughters_of_Venus//Shows/Husky-Jam/DOV32.JPG);
+  background-position: 50% 25%;
+  background-size: cover;
+}
+
+#value_img3 {
+  background-image: url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV31.jpeg);
+  background-position: 0% 20%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 960px) {
+  .motto_content h1 {
+    font-family: monterastat;
+    color: #fff;
+    margin: 10vh;
+    margin-top: 30vh;
+    font-size: 15vw;
+    text-align: center;
+  }
+
+  /* mission */
+  .mission_container {
+    flex-direction: column;
+  }
+
+  .mission_content h2 {
+    text-align: center;
+    font-size: 10vw;
+  }
+
+
+
+  /* values */
+
+  .values {
+    margin: auto;
+  }
+
+  .values_title {
+    width: 85vw;
+    margin: auto;
+  }
+
+  .value {
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .value_text {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .value_img {
+    height: 100vh;
+    width: 85vw;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+/* nav section */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 6vh;
+  background-color: black;
+  box-shadow: 2px 2px 4px 2px #91919164;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  background-image: url(images/Daughters_of_Venus/Art/DOV-logo.jpeg);
+  width: 5vh;
+  height: 5vh;
+  background-size: cover;
+  margin: auto;
+}
+
+.nav h1 a {
+  margin-right: 3vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: garamond;
+  color: #fffbfb;
+  text-decoration: none;
+}
+
+.nav-title:hover {
+  text-shadow: rgb(254, 0, 0) 1px 0 20px;
+  color: #dab8b8;
+}
+
+.nav-buttons, .social-icons{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-buttons {
+  width: 55vw;
+}
+
+.social-icons {
+  width: 15vw;
+  margin: auto;
+  font-size: 1.5vw;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-family: anton;
+}
+
+.fa-brands:hover {
+  color: rgb(255, 0, 0) !important;
+}
+
+
+.nav-buttons li {
+  margin: auto;
+}
+
+.nav-buttons a {
+  color: #fff;
+  text-decoration: none;
+  font-family: anton;
+  font-size: 2vw;
+}
+
+.nav-buttons a:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+
+/* music that moves you */
+
+.home1 {
+  width: 100%;
+  max-width: 100vw;
+}
+
+.home1_container {
+  width: 95vw;
+  max-width: 1800px;
+  height: 90vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.home1_content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.home1_content div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.home1_content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.home1_content p {
+  margin: auto;
+  font-size: 2.9vh;
+  text-align: left;
+  font-family: Montserrat;
+  color: #fff;
+}
+
+.home1_content2 h2 {
+  margin: auto;
+  font-size: 11vh;
+  font-family: roboto-condensed;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.home1_center_container {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.203) 100%,
+    rgba(255, 255, 255, 0.297) 100%
+  ),
+  url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV7.jpeg);
+  background-size: cover;
+  background-position: 50% 70%;
+  height: 45vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  width: 40vw;
+  box-shadow: 9px 9px #ff9dc9;
+}
+
+.home1_content div div {
+  margin: 10px;
+  border-radius: 20px;
+}
+
+#home1_photo1 {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 212, 0.203) 100%,
+    rgba(179, 0, 255, 0.297) 100%
+  ),
+  url(images/Daughters_of_Venus/Shows/QFC-Show/IMG_5013.JPG);
+  background-position: 50% 30%;
+}
+
+#home1_photo2 {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 212, 0.203) 100%,
+    rgba(179, 0, 255, 0.297) 100%
+  ),
+  url(images/Daughters_of_Venus/Shows/Marthas-2:21:24/IMG_4879.JPG);
+  background-position: 50% 82%;
+}
+
+.home1_photo {
+  background-size: cover;
+  height: 20vw;
+  width: 25vw;
+  box-shadow: 9px 9px #ff9dc9;;
+}
+
+
+
+
+

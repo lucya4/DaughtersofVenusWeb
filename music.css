@@ -1,0 +1,602 @@
+/* tech new */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url(images/Daughters_of_Venus/miscelanious/edgy-crowd.jpg);
+  background-attachment: fixed;
+  background-position: fixed;
+  background-size: cover;
+  color: #f5f5f5; /* Light text for contrast */
+  line-height: 1.6;
+}
+
+/* Navbar (already styled, so no changes here) */
+
+/* Hero Section */
+.hero {
+  background: url(images/Daughters_of_Venus/Shows/Marthas-2:21:24/IMG_4942.JPG) no-repeat center center/cover; /* Grunge texture */
+  background-position: 50% 90%;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.hero_container {
+  z-index: 1;
+}
+
+.hero h1 a, .hero h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #ffffff; /* Muted dark purple for headings */
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #f5f5f5;
+}
+
+/* Music Technology Section */
+.LLM {
+  padding: 4rem 2rem; /* Darker background for contrast */
+  height: 100vh;
+}
+
+.LLM_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.LLM h1 {
+  font-family: garamond;
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.LLM h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.LLM_steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.LLM_step_card {
+  background: #ffffff; /* Dark card background */
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.LLM_step_card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+}
+
+.LLM_step_card h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  color: #ffffff; /* Muted dark purple for headings */
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.LLM_step_card p {
+  font-size: 1rem;
+  color: #f5f5f5;
+  position: relative;
+  z-index: 1;
+}
+
+.LLM_step_card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 20px rgba(138, 90, 131, 0.5); /* Muted dark purple glow on hover */
+}
+
+
+/*social section */
+.social-section {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.socials {
+  width: 25vw;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-container {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.container-words {
+  margin: auto;
+  max-width: 40vw;
+}
+
+.container-image {
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: auto;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 25px;
+}
+
+#recording-1 {
+  background-image: url(images/Daughters_of_Venus/Recording/DOV41.jpeg);
+}
+
+#recording-2 {
+  background-image: url(images/Daughters_of_Venus/Recording/DOV40.JPG);
+}
+
+/* Creative Process Section */
+.creative_process {
+  padding: 4rem 2rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.463) 10%,
+    rgba(0, 0, 0, 0.512) 10%
+  ),
+  url(images/Daughters_of_Venus/miscelanious/record.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.creative_process_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.creative_process h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #ffffff; /* Muted dark purple for headings */
+  margin-bottom: 1rem;
+
+}
+
+.creative_process p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cp-subtitle {
+  width: 60vw;
+  margin: auto;
+}
+
+.creative_process_steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.creative_process_step {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+  padding: 2rem;
+  border-radius: 10px;
+  width: 27vw;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.creative_process_step h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  color: #eb6c50;
+  text-shadow: 1px 1px 2px rgb(84, 14, 14);
+  margin-bottom: 1rem;
+}
+
+.creative_process_step p {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+  margin-top: 5vh;
+}
+
+.creative_process_step:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 20px rgba(138, 90, 131, 0.5); /* Muted dark purple glow on hover */
+}
+
+/* Listen & Watch Section */
+.listen_watch {
+  padding: 4rem 2rem;
+  background-color: #2a2a2a; /* Dark background */
+  text-align: center;
+}
+
+.listen_watch_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.listen_watch h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #6a5a83; /* Muted dark blue-purple for headings */
+  margin-bottom: 1rem;
+}
+
+.listen_watch p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.listen_watch_links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.listen_watch_link {
+  background-color: #6a5a83; /* Muted dark blue-purple button */
+  color: #f5f5f5;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.listen_watch_link:hover {
+  background-color: #4a3a63; /* Darker muted blue-purple on hover */
+  transform: translateY(-5px); /* Lift button on hover */
+}
+
+/* Services Section */
+.services {
+  padding: 4rem 2rem;
+  background: url('images/grunge-texture-3.jpg') no-repeat center center/cover; /* Another grunge texture */
+  text-align: center;
+}
+
+.services h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #6a5a83; /* Muted dark blue-purple for headings */
+  margin-bottom: 1rem;
+}
+
+.services_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services_card {
+  background: rgba(51, 51, 51, 0.8); /* Semi-transparent dark background */
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.services_card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+}
+
+.services_card h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  color: #6a5a83; /* Muted dark blue-purple for headings */
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.services_card p {
+  font-size: 1rem;
+  color: #f5f5f5;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.services_card button {
+  background-color: #6a5a83; /* Muted dark blue-purple button */
+  color: #f5f5f5;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.services_card button:hover {
+  background-color: #4a3a63; /* Darker muted blue-purple on hover */
+}
+
+.services_card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 20px rgba(106, 90, 131, 0.5); /* Muted dark blue-purple glow on hover */
+}
+
+
+
+
+
+
+
+
+
+
+/* nav section */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 6vh;
+  background-color: black;
+  box-shadow: 2px 2px 4px 2px #91919164;
+  position: fixed;
+  z-index: 6;
+}
+
+.logo {
+  background-image: url(images/Daughters_of_Venus/Art/DOV-logo.jpeg);
+  width: 5vh;
+  height: 5vh;
+  background-size: cover;
+  margin: auto;
+}
+
+.nav h1 a {
+  margin-right: 3vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: garamond;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-title:hover {
+  text-shadow: rgb(254, 0, 0) 1px 0 20px;
+  color: #dab8b8;
+}
+
+.nav-buttons, .social-icons{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-buttons {
+  width: 55vw;
+}
+
+.social-icons {
+  width: 15vw;
+  margin: auto;
+  font-size: 1.5vw;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-family: anton;
+}
+
+.fa-brands:hover {
+  color: rgb(255, 0, 0) !important;
+}
+
+
+.nav-buttons li {
+  margin: auto;
+}
+
+.nav-buttons a {
+  color: #fff;
+  text-decoration: none;
+  font-family: anton;
+  font-size: 2vw;
+}
+
+.nav-buttons a:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+.gallery-container {
+  max-width: 1200px;
+  height: 80vh;
+  margin: auto;
+  margin-bottom: 20vh;
+  padding: 2rem;
+}
+
+.gallery-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: black;
+  font-family: garamond;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* === GALLERY GRID === */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+/* === PHOTO STACK EFFECT === */
+.photo-stack {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.photo-stack img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.photo-stack img:first-child {
+  opacity: 1;
+}
+
+/* === FLASHING ANIMATION WITH CONTINUOUS LOOP === */
+@keyframes flashCycle {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  35% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* Apply staggered animations */
+.gallery-item:hover .photo-stack img:nth-child(1) {
+  animation: flashCycle 9s infinite 0s;
+}
+.gallery-item:hover .photo-stack img:nth-child(2) {
+  animation: flashCycle 9s infinite 3s;
+}
+.gallery-item:hover .photo-stack img:nth-child(3) {
+  animation: flashCycle 9s infinite 6s;
+}
+.gallery-item:hover .photo-stack img:nth-child(4) {
+  animation: flashCycle 9s infinite 9s;
+}
+
+
+/* Caption */
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  padding: 1rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-caption {
+  transform: translateY(0);
+}
+
+.gallery-caption h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-caption p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .gallery-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+}
