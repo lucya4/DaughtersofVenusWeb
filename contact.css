@@ -120,6 +120,7 @@
 .contact-form p {
   color: white;
   margin: auto;
+  padding-bottom: 2rem;
   font-size: 1.2rem;
   text-shadow: rgb(0, 0, 0) 1px 0 20px;
 }
