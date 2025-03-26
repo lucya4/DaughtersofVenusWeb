@@ -47,6 +47,8 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .mission_container {
@@ -78,6 +80,7 @@ body {
   font-family: roboto-condensed;
   color: #ffffff;
   margin-bottom: 5vh;
+  line-height: 120%;
   margin-top: 3vh;
   text-shadow: rgb(0, 0, 0) 1px 0 20px;
 }
