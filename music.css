@@ -1,23 +1,4 @@
-/* tech new */
 
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background: url(images/Daughters_of_Venus/miscelanious/edgy-crowd.jpg);
-  background-attachment: fixed;
-  background-position: fixed;
-  background-size: cover;
-  color: #f5f5f5; /* Light text for contrast */
-  line-height: 1.6;
-}
-
-/* Navbar (already styled, so no changes here) */
 
 /* Hero Section */
 .hero {
@@ -386,92 +367,6 @@ body {
   transform: scale(1.05); /* Scale up on hover */
   box-shadow: 0 0 20px rgba(106, 90, 131, 0.5); /* Muted dark blue-purple glow on hover */
 }
-
-
-
-
-
-
-
-
-
-
-/* nav section */
-.nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100vw;
-  height: 6vh;
-  background-color: black;
-  box-shadow: 2px 2px 4px 2px #91919164;
-  position: fixed;
-  z-index: 6;
-}
-
-.logo {
-  background-image: url(images/Daughters_of_Venus/Art/DOV-logo.jpeg);
-  width: 5vh;
-  height: 5vh;
-  background-size: cover;
-  margin: auto;
-}
-
-.nav h1 a {
-  margin-right: 3vw;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-family: garamond;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.nav-title:hover {
-  text-shadow: rgb(254, 0, 0) 1px 0 20px;
-  color: #dab8b8;
-}
-
-.nav-buttons, .social-icons{
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.nav-buttons {
-  width: 55vw;
-}
-
-.social-icons {
-  width: 15vw;
-  margin: auto;
-  font-size: 1.5vw;
-}
-
-.social-icons a {
-  color: #fff;
-  text-decoration: none;
-  font-family: anton;
-}
-
-.fa-brands:hover {
-  color: rgb(255, 0, 0) !important;
-}
-
-
-.nav-buttons li {
-  margin: auto;
-}
-
-.nav-buttons a {
-  color: #fff;
-  text-decoration: none;
-  font-family: anton;
-  font-size: 2vw;
-}
-
-.nav-buttons a:hover {
-  color: rgb(255, 0, 0);
-}
-
 
 
 
