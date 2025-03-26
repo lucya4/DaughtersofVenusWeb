@@ -469,7 +469,7 @@ font-family: Montserrat;
     flex-direction: row; /* Keeps icons horizontal */
     justify-content: center;
     gap: 1rem; /* Adds space between icons */
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
   }
 
   .social-icons a {
