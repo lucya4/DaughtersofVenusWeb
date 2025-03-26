@@ -425,3 +425,164 @@ body {
 
 
 
+
+
+
+/* mobile */
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .motto_content {
+    height: 60vh;
+    background-position: center;
+  }
+
+  .motto_content h1 {
+    font-size: 6vw;
+    margin-top: 20vh;
+    margin: auto;
+  }
+
+  .mission {
+    height: auto;
+    display: block;
+  }
+
+  .mission_container {
+    padding: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mission_content {
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+
+  .mission_content p {
+    font-size: 3vh;
+  }
+
+  .mission_content h2 {
+    font-size: 6vh;
+  }
+
+  .mission_img {
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+  }
+
+  .values_container {
+    width: 90vw;
+  }
+
+  .value {
+    flex-direction: column;
+  }
+
+  .value_text {
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+  .value_img {
+    width: 100%;
+    height: 50vh;
+    margin: 1rem 0;
+  }
+
+  .home1_container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .home1_content div {
+    margin: 1rem 0;
+  }
+
+  .home1_content2 h2 {
+    font-size: 6vw;
+  }
+
+  .home1_photo {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .motto_content {
+    height: 70vh;
+    background-position: center;
+  }
+
+  .motto_content h1 {
+    font-size: 5vw;
+  }
+
+  .mission {
+    height: auto;
+    display: flex;
+  }
+
+  .mission_container {
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .mission_content p {
+    font-size: 3.5vh;
+  }
+
+  .mission_content h2 {
+    font-size: 7vh;
+  }
+
+  .mission_img {
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    background-position: center;
+  }
+
+  .values_container {
+    width: 85vw;
+  }
+
+  .value {
+    grid-template-columns: 1fr;
+  }
+
+  .value_img {
+    width: 100%;
+    height: 45vh;
+  }
+
+  .home1_container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .home1_content div {
+    margin: 2rem 0;
+  }
+
+  .home1_content2 h2 {
+    font-size: 8vw;
+  }
+
+  .home1_photo {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+}
+
