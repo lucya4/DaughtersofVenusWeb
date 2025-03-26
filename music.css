@@ -640,6 +640,17 @@
     height: auto;
   }
 
+  .creative_process {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.463) 10%,
+      rgba(0, 0, 0, 0.512) 10%
+    ),
+    url(images/Daughters_of_Venus/miscelanious/record.jpg);
+    background-size: cover;
+    background-position: 50% 100%;
+  }
+
   .creative_process h1 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
