@@ -400,6 +400,12 @@ body {
     background-position: center;
   }
 
+  .mission_img {
+    width: 100vw;
+    background-image: url(images/Daughters_of_Venus/Shows/QFC-Show/IMG_5012.JPG);
+    background-size: cover;
+  }
+
   .values_container {
     width: 90vw;
   }
