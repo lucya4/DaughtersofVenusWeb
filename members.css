@@ -160,6 +160,10 @@
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+  .member_card {
+    height: 50vh;
+  }
+
   .members_container h1 {
     font-size: 3rem;
   }
