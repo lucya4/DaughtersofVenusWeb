@@ -427,6 +427,9 @@ font-family: Montserrat;
 /* mobile and tablet nav and footer */
 
 @media (max-width: 768px) {
+  body {
+    padding-top: 15vh; /* Matches the height of your navbar */
+  }
   .nav {
     display: flex;
     flex-direction: column;
