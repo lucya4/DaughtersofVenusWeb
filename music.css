@@ -539,6 +539,7 @@
   .gallery-container {
     margin-bottom: 10vh;
     padding: 1rem;
+    height: auto;
   }
 
   .gallery-title {
@@ -554,6 +555,7 @@
   /* Creative Process Section */
   .creative_process {
     padding: 2rem 1rem;
+    height: auto;
   }
 
   .creative_process h1 {
@@ -619,6 +621,7 @@
   .gallery-container {
     padding: 1.5rem;
     margin-bottom: 15vh;
+    height: auto;
   }
 
   .gallery-title {
@@ -634,6 +637,7 @@
   /* Creative Process Section */
   .creative_process {
     padding: 3rem 1.5rem;
+    height: auto;
   }
 
   .creative_process h1 {
