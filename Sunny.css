@@ -438,7 +438,6 @@ font-family: Montserrat;
     background-color: black; /* Keeps the navbar dark for contrast */
     height: 15vh; /* Increased height to fit buttons and icons */
     width: 100%;
-    padding: .5rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     position: fixed;
     top: 0;
