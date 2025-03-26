@@ -124,3 +124,230 @@
   font-size: 1.2rem;
   text-shadow: rgb(0, 0, 0) 1px 0 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AI generated mobile CSS */
+
+@media (max-width: 768px) {
+  .contact-page {
+    background-size: cover;
+    background-attachment: scroll;
+    height: auto;
+  }
+
+  .contact-hero {
+    padding: 2rem 1rem;
+  }
+
+  .contact-hero h2 {
+    font-size: 2.5rem;
+    padding-top: 20px;
+  }
+
+  .contact-hero p {
+    font-size: 1.4rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .contact-info, .contact-form {
+    padding: 1.5rem;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .contact-info h3, .contact-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .info-item i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .info-item p {
+    font-size: 1.3rem;
+  }
+
+  .social-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .social-icon {
+    width: 12vw;
+    height: 12vw;
+    font-size: 1.2rem;
+  }
+
+  .contact-form p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer_links, .social_media_wrap {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_link_items h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer_link_items a {
+    font-size: 1rem;
+  }
+
+  .footer_logo {
+    font-size: 1.5rem;
+  }
+
+  .social_icons {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .social_icon_link {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact-page {
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+  }
+
+  .contact-hero {
+    padding: 3rem 2rem;
+  }
+
+  .contact-hero h2 {
+    font-size: 2.8rem;
+    padding-top: 20px;
+  }
+
+  .contact-hero p {
+    font-size: 1.6rem;
+    max-width: 600px;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1.5rem;
+    height: auto;
+  }
+
+  .contact-info, .contact-form {
+    padding: 2rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .contact-info h3, .contact-form h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .info-item i {
+    font-size: 1.8rem;
+    margin-right: 0.8rem;
+  }
+
+  .info-item p {
+    font-size: 1.4rem;
+  }
+
+  .social-links {
+    gap: 1rem;
+    justify-content: start;
+  }
+
+  .social-icon {
+    width: 4vw;
+    height: 4vw;
+    font-size: 1.4rem;
+  }
+
+  .contact-form p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .nav {
+    padding: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .nav-buttons {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .footer_links, .social_media_wrap {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer_link_items h2 {
+    font-size: 1.4rem;
+  }
+
+  .footer_link_items a {
+    font-size: 1.2rem;
+  }
+
+  .footer_logo {
+    font-size: 1.6rem;
+  }
+
+  .social_icons {
+    gap: 1.2rem;
+  }
+
+  .social_icon_link {
+    font-size: 1.4rem;
+  }
+}
