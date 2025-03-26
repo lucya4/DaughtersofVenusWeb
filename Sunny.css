@@ -428,16 +428,74 @@ font-family: Montserrat;
 
 @media (max-width: 768px) {
   .nav {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-color: black; /* Keeps the navbar dark for contrast */
+    height: 15vh; /* Increased height to fit buttons and icons */
+    width: 100%;
     padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    z-index: 999; /* Ensures it stays on top */
   }
 
   .nav-buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+    display: flex;
+    flex-direction: row; /* Aligns buttons horizontally */
+    justify-content: center;
+    gap: 1.5rem; /* Adds space between the buttons */
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
+
+  .nav-buttons a {
+    font-size: 4vw; /* Larger font size for visibility */
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    transition: color 0.3s ease;
+  }
+
+  .nav-buttons a:hover {
+    color: rgb(255, 0, 140); /* Adds a hover effect */
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row; /* Keeps icons horizontal */
+    justify-content: center;
+    gap: 1rem; /* Adds space between icons */
+    margin-top: 0.5rem;
+  }
+
+  .social-icons a {
+    font-size: 6vw; /* Enlarged icon size for easy tap */
+    color: rgb(248, 233, 239);
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: rgb(255, 0, 140); /* Adds a hover effect for icons */
+  }
+
+  .logo {
+    width: 5vh;
+    height: 5vh;
+    margin-bottom: 1rem;
+    background-size: cover;
+  }
+
+  .nav-title {
+    font-size: 5vw; /* Adjusted title font size for readability */
+    color: #fff;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
 
   .footer_links, .social_media_wrap {
     flex-direction: column;
