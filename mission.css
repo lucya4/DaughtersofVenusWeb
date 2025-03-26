@@ -166,19 +166,34 @@ body {
 }
 
 #value_img1 {
-  background-image: url(images/Daughters_of_Venus/Fundraisers/DOV44.jpeg);
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 212, 0.203) 100%,
+    rgba(179, 0, 255, 0.297) 100%
+  ),
+  url(images/Daughters_of_Venus/Fundraisers/DOV44.jpeg);
   background-position: 50% 50%;
   background-size: cover;
 }
 
 #value_img2 {
-  background-image: url(images/Daughters_of_Venus//Shows/Husky-Jam/DOV32.JPG);
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 212, 0.203) 100%,
+    rgba(179, 0, 255, 0.297) 100%
+  ),
+  url(images/Daughters_of_Venus//Shows/Husky-Jam/DOV32.JPG);
   background-position: 50% 25%;
   background-size: cover;
 }
 
 #value_img3 {
-  background-image: url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV31.jpeg);
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 212, 0.203) 100%,
+    rgba(179, 0, 255, 0.297) 100%
+  ),
+  url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV31.jpeg);
   background-position: 0% 20%;
   background-size: cover;
 }
@@ -322,7 +337,7 @@ body {
     rgba(255, 0, 212, 0.203) 100%,
     rgba(179, 0, 255, 0.297) 100%
   ),
-  url(images/Daughters_of_Venus/Shows/QFC-Show/IMG_5013.JPG);
+  url(images/Daughters_of_Venus/Recording/DOV41.jpeg);
   background-position: 50% 30%;
 }
 
