@@ -16,7 +16,7 @@
 
 .members_container h1 {
   margin-top: 2rem;
-  font-size: 4rem;
+  font-size: 7vh;
   font-family: 'Anton', sans-serif;
   margin-bottom: 2rem;
   color: #a30e0e; /* Muted purple for headings */
@@ -117,7 +117,7 @@
 }
 
 .member_info h2 {
-  font-size: 2rem;
+  font-size: 4.5vh;
   font-family: 'Anton', sans-serif;
   margin-bottom: 0.5rem;
   color: #fcfaff; /* Muted purple for member names */
@@ -125,7 +125,7 @@
 }
 
 .member_info h3 {
-  font-size: 1.25rem;
+  font-size: 2.5vh;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 1rem;
   color: #f5f5f5; /* White for role */
@@ -133,7 +133,7 @@
 }
 
 .member_info p {
-  font-size: 1rem;
+  font-size: 2.2vh;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   color: #ccc; /* Light gray for bio text */
