@@ -239,16 +239,102 @@
     </div>
     <script src="Sunny.js"></script>
     <script>
-      // Optional: Preload images for smoother animation
       document.addEventListener('DOMContentLoaded', () => {
-          const images = document.querySelectorAll('.photo-stack img');
-          images.forEach(img => {
-              const src = img.getAttribute('src');
-              if (src) {
-                  new Image().src = src;
-              }
-          });
-      });
+            // Array of musical note emojis
+            const notes = ['♪', '♫', '♩', '♬', '♭', '♮', '♯'];
+
+            // Create note on click
+            document.addEventListener('click', (e) => {
+                createMusicNote(e.clientX, e.clientY);
+
+                // Create 3-5 notes in a cluster around the click
+                const noteCount = 3 + Math.floor(Math.random() * 3);
+                for (let i = 0; i < noteCount; i++) {
+                    setTimeout(() => {
+                        const x = e.clientX + (Math.random() * 60 - 30);
+                        const y = e.clientY + (Math.random() * 60 - 30);
+                        createMusicNote(x, y);
+                    }, i * 100);
+                }
+            });
+
+            function createMusicNote(x, y) {
+                const note = document.createElement('div');
+                note.className = 'music-note';
+                note.textContent = notes[Math.floor(Math.random() * notes.length)];
+
+                // Random size and rotation
+                const size = 1 + Math.random() * 2;
+                note.style.fontSize = `${size}rem`;
+                note.style.transform = `rotate(${Math.random() * 30 - 15}deg)`;
+
+                // Position at click coordinates
+                note.style.left = `${x}px`;
+                note.style.top = `${y}px`;
+
+                // Random color variation
+                const hue = 300 + Math.random() * 30; // Pink/purple range
+                note.style.color = `hsl(${hue}, 100%, 70%)`;
+
+                // Random animation duration
+                note.style.animationDuration = `${2 + Math.random() * 2}s`;
+
+                document.body.appendChild(note);
+
+                // Remove element after animation completes
+                setTimeout(() => {
+                    note.remove();
+                }, 3000);
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const doveLink = document.getElementById('dove-link');
+
+            doveLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                releaseDoves(5); // Release 5 doves
+            });
+
+            function releaseDoves(count) {
+                for (let i = 0; i < count; i++) {
+                    setTimeout(() => {
+                        createDove();
+                    }, i * 300); // Stagger dove creation
+                }
+            }
+
+            function createDove() {
+                const dove = document.createElement('div');
+                dove.className = 'dove';
+
+                // Random variation in starting position (bottom right area)
+                const startX = window.innerWidth + (Math.random() * 100);
+                const startY = window.innerHeight + (Math.random() * 100);
+
+                // Random size
+                const size = 1 + Math.random() * 2;
+
+                // Random flight variation
+                const flightVariation = Math.random() * 100 - 50;
+
+                // Apply styles
+                dove.style.fontSize = `${size}rem`;
+                dove.style.right = `-100px`;
+                dove.style.bottom = `-100px`;
+                dove.style.animationDuration = `${6 + Math.random() * 4}s`;
+
+                // Add slight rotation and flight path variation
+                dove.style.setProperty('--flight-var', `${flightVariation}px`);
+
+                document.body.appendChild(dove);
+
+                // Remove dove after animation completes
+                setTimeout(() => {
+                    dove.remove();
+                }, 10000);
+            }
+        });
   </script>
   <script async src="//www.instagram.com/embed.js"></script>
   </body>
