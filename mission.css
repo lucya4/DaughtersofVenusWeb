@@ -376,8 +376,12 @@ body {
   }
 
   .motto_content {
-    height: 60vh;
+    height: auto;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
   }
 
   .motto_content h1 {
@@ -387,7 +391,7 @@ body {
   }
 
   .mission {
-    height: auto;
+    height: 100vh;
     display: block;
   }
 
@@ -403,11 +407,11 @@ body {
   }
 
   .mission_content p {
-    font-size: 3vh;
+    font-size: 2vh;
   }
 
   .mission_content h2 {
-    font-size: 6vh;
+    font-size: 4vh;
   }
 
   .mission_img {

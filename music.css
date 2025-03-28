@@ -507,11 +507,14 @@
 
 /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
+  .body {
+    background-color: #2a2a2a;
+  }
   /* Hero Section */
   .hero {
     height: 60vh;
-    background-position: center;
     background: url(images/Daughters_of_Venus/Shows/Marthas-2:21:24/IMG_4944.JPG) no-repeat center center/cover;
+    background-position: 50% 100%;
   }
 
   .hero h1 {
@@ -558,6 +561,7 @@
   .creative_process {
     padding: 2rem 1rem;
     height: auto;
+    background-color: #2a2a2a;
   }
 
   .creative_process h1 {

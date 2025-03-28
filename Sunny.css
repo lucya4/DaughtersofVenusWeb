@@ -455,7 +455,7 @@ font-family: Montserrat;
   }
 
   .nav-buttons a {
-    font-size: 4vw; /* Larger font size for visibility */
+    font-size: 2vh; /* Larger font size for visibility */
     color: #fff;
     text-decoration: none;
     font-family: 'Anton', sans-serif;
@@ -474,7 +474,7 @@ font-family: Montserrat;
   }
 
   .social-icons a {
-    font-size: 6vw; /* Enlarged icon size for easy tap */
+    font-size: 2vh; /* Enlarged icon size for easy tap */
     color: rgb(248, 233, 239);
     transition: color 0.3s ease;
   }
