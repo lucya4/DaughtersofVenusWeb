@@ -1,0 +1,286 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url(images/Daughters_of_Venus/miscelanious/edgy-crowd.jpg);
+  background-attachment: fixed;
+  background-position: fixed;
+  background-size: cover;
+  color: #f5f5f5; /* Light text for contrast */
+  line-height: 1.6;
+}
+
+.hero_container {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.338) 10%
+  ),
+  url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV2.jpeg);
+  background-size: cover;
+  background-position: 100% 57%;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons-container {
+  color: white;
+  margin: 0;
+  text-align: center;
+  position: sticky;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 35%;
+  margin-left: 5%;
+}
+
+.social-icons li {
+  margin: auto;
+}
+
+.social-icons a {
+  color: rgb(248, 233, 239);
+  text-decoration: none;
+  font-family: anton;
+  font-size: 3vw;
+}
+
+.fa-brands:hover {
+  color: rgb(255, 0, 140) !important;
+}
+
+/*Title*/
+.title-container {
+  margin: auto;
+  width: 100%;
+}
+
+.title {
+  display: flexbox;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.title h1 {
+  color:#fff;
+  font-family: anton;
+  font-size: 9vw;
+  text-align: center;
+  text-shadow: rgb(255, 10, 169) 1px 0 10px;
+}
+
+.title-text:hover {
+  text-shadow: rgb(255, 0, 212) 1px 0 10px;
+}
+
+
+
+  /* Basic styling for the footer */
+  nav {
+    color: white;
+    margin: auto;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+}
+
+/* Styling for the navigation bar */
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin: 0 5vw;
+}
+
+.footer-nav a {
+    color: rgb(248, 233, 239);
+    text-decoration: none;
+    font-family: anton;
+    font-size: 3vw;
+}
+
+.footer-nav a:hover {
+    color: rgb(255, 0, 140);
+}
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*music note */
+.music-note {
+  position: absolute;
+  font-size: 2rem;
+  color: #ff00ff;
+  user-select: none;
+  pointer-events: none;
+  animation: floatUp 3s ease-out forwards;
+  opacity: 0.8;
+}
+
+@keyframes floatUp {
+  0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 0.8;
+  }
+  100% {
+      transform: translateY(-200px) rotate(20deg);
+      opacity: 0;
+  }
+}
+
+
+
+
+/* dove */
+.dove {
+  position: fixed;
+  font-size: 2rem;
+  z-index: 100;
+  pointer-events: none;
+  user-select: none;
+  animation: flyDiagonal 8s linear forwards;
+  opacity: 0;
+  transform-origin: center;
+}
+
+@keyframes flyDiagonal {
+  0% {
+      transform: translateX(100px) translateY(100px) rotate(0deg);
+      opacity: 0;
+      left: 100%;
+      top: 100%;
+  }
+  10% {
+      opacity: 1;
+  }
+  90% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(-100px) translateY(-100px) rotate(-15deg);
+      opacity: 0;
+      left: 0;
+      top: 0;
+  }
+}
+
+.dove::before {
+  content: "🕊️";
+}
+
+
+
+
+
+/* mobile */
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  /* General Body and Hero Section */
+  body {
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+  }
+
+  .hero_container {
+    height: auto;
+  }
+
+  .hero {
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  /* Social Icons */
+  .social-icons {
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    gap: 1rem;
+  }
+
+  .social-icons a {
+    font-size: 5vw; /* Scales font size for smaller screens */
+  }
+
+  /* Title */
+  .title h1 {
+    font-size: 8vw;
+    text-shadow: rgb(255, 10, 169) 1px 0 5px;
+  }
+
+  /* Footer Navigation */
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .footer-nav li {
+    margin: 0;
+  }
+
+  .footer-nav a {
+    font-size: 8vw; /* Adjust font size for readability on smaller screens */
+  }
+
+  /* Music Note Animation */
+  .music-note {
+    font-size: 2rem;
+  }
+
+  /* Dove Animation */
+  .dove {
+    font-size: 2rem;
+  }
+}
