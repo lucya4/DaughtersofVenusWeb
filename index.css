@@ -686,3 +686,32 @@
     font-size: 1.1rem;
   }
 }
+
+/* Penny June */
+
+.PJ-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.PJ-content {
+  background-image: url(images/Daughters_of_Venus/Photoshoots/Gasworks-Photoshoot/PennyJuneCover.png);
+  background-size: cover;
+  background-position: 100% 70%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+}
+
+.PJ-message {
+  margin: auto;
+  padding-top: 10vh;
+  padding-bottom: 16vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
