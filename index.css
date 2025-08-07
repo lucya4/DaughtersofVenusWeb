@@ -1,10 +1,18 @@
-/* tech new */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url(images/Daughters_of_Venus/Photoshoots/GoldenGardens-Photoshoot/DSC06492.jpg);
+  background-attachment: fixed;
+  background-position: 50% 70%;
+  background-size: cover;
+  color: #f5f5f5; /* Light text for contrast */
+  line-height: 1.6;
+}
 
 /* Hero Section */
 .hero {
-  background: url(images/Daughters_of_Venus/Shows/Marthas-2:21:24/IMG_4942.JPG) no-repeat center center/cover; /* Grunge texture */
-  background-position: 50% 90%;
+  background: url(images/Daughters_of_Venus/Photoshoots/GoldenGardens-Photoshoot/DSC06598.jpg) no-repeat center center/cover; /* Grunge texture */
+  background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -22,7 +30,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  /* background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
 }
 
 .hero_container {
@@ -30,9 +38,8 @@
 }
 
 .hero h1 a, .hero h1 {
-  font-family: 'Anton', sans-serif;
-  font-size: 7vw;
-  text-transform: uppercase;
+  font-family: garamond;
+  font-size: 9vw;
   color: #ffffff; /* Muted dark purple for headings */
 }
 
@@ -43,29 +50,32 @@
 
 /* Music Technology Section */
 .LLM {
-  padding: 4rem 2rem; /* Darker background for contrast */
+  margin: auto;
+  margin-top: 40vh;
   height: 100vh;
+  width: 90vw;
 }
 
 .LLM_container {
   max-width: 1800px;
   margin: 0 auto;
+  padding: 2rem;
+  border-radius: 25px;
   text-align: center;
+  background-color: #2f283d;
 }
 
 .LLM h1 {
   font-family: garamond;
   font-size: 3rem;
-  color: black;
-  text-shadow: 1px 1px 2px rgb(250, 250, 250);
+  color: rgb(255, 255, 255);
   margin-bottom: 1rem;
 }
 
 .LLM h2 {
   font-size: 1.5rem;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-bottom: 2rem;
-  text-shadow: 1px 1px 2px rgb(250, 250, 250);
 }
 
 .LLM_steps {
@@ -293,7 +303,7 @@
 /* Services Section */
 .services {
   padding: 4rem 2rem;
-  background: url('images/grunge-texture-3.jpg') no-repeat center center/cover; /* Another grunge texture */
+  background: url('images') no-repeat center center/cover; /* Another grunge texture */
   text-align: center;
 }
 
@@ -690,28 +700,38 @@
 /* Penny June */
 
 .PJ-container {
-  height: 100vh;
-  width: 100vw;
+  margin: 10vh;
+  margin-top: 20vh;
+  height: 70vh;
+  background-image: url(images/Daughters_of_Venus/Photoshoots/Gasworks-Photoshoot/PennyJuneCover.png);
+  background-size: cover;
+  background-position: 100% 96%;
+  border-radius: 25px;
 }
 
 .PJ-content {
-  background-image: url(images/Daughters_of_Venus/Photoshoots/Gasworks-Photoshoot/PennyJuneCover.png);
-  background-size: cover;
-  background-position: 100% 70%;
-  width: 100vw;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-content: center;
+  background: rgba(0, 0, 0, 0.409); /* Dark overlay for better text visibility */
+  border-radius: 25px;
 }
 
 .PJ-message {
   margin: auto;
-  padding-top: 10vh;
-  padding-bottom: 16vh;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   color: #ffffff;
+  font-family: garamond;
+}
+
+.PJ-message h1 {
+  font-size: 5rem;
+}
+
+.PJ-message h2 {
+  font-size: 3rem;
 }
 
