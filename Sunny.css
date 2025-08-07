@@ -37,6 +37,10 @@
   text-decoration: none;
 }
 
+.nav-title {
+  margin: auto;
+}
+
 .nav-title:hover {
   text-shadow: rgb(254, 0, 0) 1px 0 20px;
   color: #dab8b8;
@@ -61,11 +65,10 @@
 .social-icons a {
   color: #fff;
   text-decoration: none;
-  font-family: anton;
 }
 
 .fa-brands:hover {
-  color: rgb(255, 0, 0) !important;
+  color: rgb(143, 91, 127) !important;
 }
 
 
@@ -76,12 +79,11 @@
 .nav-buttons a {
   color: #fff;
   text-decoration: none;
-  font-family: anton;
   font-size: 2vw;
 }
 
 .nav-buttons a:hover {
-  color: rgb(255, 0, 0);
+  color: rgb(143, 91, 127) !important;
 }
 
 

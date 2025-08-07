@@ -17,9 +17,9 @@
 .members_container h1 {
   margin-top: 2rem;
   font-size: 7vh;
-  font-family: 'Anton', sans-serif;
+  font-family: garamond;
   margin-bottom: 2rem;
-  color: #a30e0e; /* Muted purple for headings */
+  color: #a282c9; /* Muted purple for headings */
 }
 
 .members_grid {
@@ -39,8 +39,11 @@
   background-position: 50% 50%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   height: 60vh;
+  width: 29vw;
+  font-family: garamond;
 }
 
 .member_card:hover {
@@ -105,6 +108,7 @@
     rgb(0, 0, 0) 100%
   ),
   url(images/Daughters_of_Venus/Photoshoots/First-Photoshoot/DOV12.JPG);
+  display: none;
 }
 
 .member_photo {
@@ -123,7 +127,7 @@
 
 .member_info h2 {
   font-size: 4.5vh;
-  font-family: 'Anton', sans-serif;
+  font-family: garamond;
   margin-bottom: 0.5rem;
   color: #fcfaff; /* Muted purple for member names */
   text-shadow: rgb(0, 0, 0) 1px 0 10px;
@@ -149,17 +153,6 @@
   max-width: 100%; /* Ensure text doesn't exceed the card's width */
   text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
-
-.social-media-section {
-  width: 100vw;
-  height: 50vh;
-}
-
-.youtube-container {
-  width: 90vw;
-  margin: auto;
-}
-
 
 
 

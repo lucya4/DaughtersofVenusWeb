@@ -60,7 +60,6 @@ body {
 .social-icons a {
   color: rgb(248, 233, 239);
   text-decoration: none;
-  font-family: anton;
   font-size: 3vw;
 }
 
@@ -83,10 +82,10 @@ body {
 
 .title h1 {
   color:#fff;
-  font-family: anton;
-  font-size: 9vw;
+  font-size: 7vw;
   text-align: center;
   text-shadow: rgb(255, 10, 169) 1px 0 10px;
+  font-family: garamond;
 }
 
 .title-text:hover {
@@ -119,7 +118,7 @@ body {
 .footer-nav a {
     color: rgb(248, 233, 239);
     text-decoration: none;
-    font-family: anton;
+    font-family: garamond;
     font-size: 3vw;
 }
 
